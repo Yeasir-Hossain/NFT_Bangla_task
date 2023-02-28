@@ -1,7 +1,7 @@
 import React from 'react';
 
 // services data 
-import services from './servicesdata'
+import {services} from './servicesdata'
 
 const Services = () => {
     return (

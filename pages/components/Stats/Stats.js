@@ -2,7 +2,7 @@ import React from 'react';
 import VisibilitySensor from 'react-visibility-sensor';
 import CountUp from 'react-countup';
 // stats data 
-import stats from './statsdata'
+import { stats } from './statsdata'
 
 const Stats = () => {
     return (
@@ -18,9 +18,7 @@ const Stats = () => {
                     {
                         stats?.map((stat, index) =>
                             <div key={index} className='p-4 w-full sm:1/2 md:w-1/4'>
-                                <div className='bg-[#22252B] 
-				  border-gray-200 px-4 py-6 rounded-lg
-				  hover:-translate-y-2 duration-300'>
+                                <div className='bg-[#22252B] border-gray-200 px-4 py-6 rounded-lg hover:-translate-y-2 duration-300'>
                                     {stat?.svg}
                                     {/* counter for the stats
                                 visibility sensor package for detecting the visible area of h2

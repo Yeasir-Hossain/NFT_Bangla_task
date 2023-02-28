@@ -36,10 +36,10 @@ const Partners = () => {
         <div id='partners' className='px-12'>
             <div className='2xl:mx-auto 2xl:container lg:px-20 md:px-6 px-4'>
                 <div className='w-full flex flex-col justify-center items-center'>
-                    <div class="flex flex-col justify-center items-center text-center space-y-2">
-                        <h1 class="text-4xl lg:text-4xl font-extrabold leading-9 md:leading-7 lg:leading-9">
+                    <div className="flex flex-col justify-center items-center text-center space-y-2">
+                        <h1 className="text-4xl lg:text-4xl font-extrabold leading-9 md:leading-7 lg:leading-9">
                             TRUSTED PARTNERS</h1>
-                        <p class="text-lg leading-6 text-center w-full md:w-10/12">
+                        <p className="text-lg leading-6 text-center w-full md:w-10/12">
                             <b>Staking, WL Mint Site, Holder Verification-Sales-Listings-Rarity Bots</b> &amp; more
                             utilities!
                         </p>

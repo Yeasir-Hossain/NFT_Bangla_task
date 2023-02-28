@@ -10,18 +10,18 @@ const Utility = ({ util }) => {
                         {util?.title}
                     </h2>
                     <h3 className='mt-2 text-center text-xl font-bold'>
-                        <span class="line-through text-gray-300">{util?.originalprice}</span>
-                        <span class="text-teal-600"> {util?.offerprice} SOL</span>
+                        <span className="line-through text-gray-300">{util?.originalprice}</span>
+                        <span className="text-teal-600"> {util?.offerprice} SOL</span>
                     </h3>
-                    <p class="text-sm font-semibold text-gray-400 text-center">Per Collection</p>
-                    <button class="text-sm mt-6 px-4 py-2 bg-teal-700 text-white rounded-lg tracking-wider hover:bg-teal-800 outline-none">
+                    <p className="text-sm font-semibold text-gray-400 text-center">Per Collection</p>
+                    <button className="text-sm mt-6 px-4 py-2 bg-teal-700 text-white rounded-lg tracking-wider hover:bg-teal-800 outline-none">
                         {util?.button}
                     </button>
                 </div>
                 <div className='bg-gradient-to-tr from-teal-600 to-teal-900 w-32 h-32  rounded-full shadow-teal-600 border-white border-dashed border-2 flex justify-center items-center'>
                     <div>
                         {util?.svg}
-                        <h1 class="text-white font-bold text-lg">{util?.svgdescription}</h1>
+                        <h1 className="text-white font-bold text-lg">{util?.svgdescription}</h1>
                     </div>
                 </div>
             </div>

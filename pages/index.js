@@ -9,7 +9,7 @@ import Packages from './components/Packages/Packages'
 import Partners from './components/Partners/Partners'
 import Footer from './components/Footer/Footer'
 
-export default function Home() {
+export default function Home(props) {
   return (
     <>
       <Head>
@@ -21,6 +21,8 @@ export default function Home() {
         <Banner></Banner>
         <Services></Services>
         <Stats></Stats>
+        {/* <Mints mints={props.mints}></Mints>
+        <Stakes stakes={props.stakes}></Stakes> */}
         <Mints></Mints>
         <Stakes></Stakes>
         <Utilities></Utilities>
@@ -31,3 +33,14 @@ export default function Home() {
     </>
   )
 }
+
+// SSR code for stakes and mints
+// export async function getServerSideProps() {
+//   // Fetch data from external API
+//   const mintsres = await fetch(`http://localhost:5000/mints`)
+//   const stakestsres = await fetch(`http://localhost:5000/stakes`)
+//   const mints = await mintsres.json()
+//   const stakes = await stakestsres.json()
+//   // Pass data to the page via props
+//   return { props: { mints, stakes } }
+// }

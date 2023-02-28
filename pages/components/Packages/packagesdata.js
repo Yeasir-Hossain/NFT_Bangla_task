@@ -184,4 +184,4 @@ const packages = [
     },
 ]
 
-export default packages
+export { packages }

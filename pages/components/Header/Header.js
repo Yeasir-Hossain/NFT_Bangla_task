@@ -22,14 +22,14 @@ const Header = () => {
             <div className='flex items-center justify-between mx-auto max-w-7xl'>
                 {/* icon of bangla nft  */}
                 <a href="#home">
-                    <div class="ml-2 flex flex-row">
+                    <div className="ml-2 flex flex-row">
                         <div className='h-[50px] w-[50px]'>
                             <Image
                                 src={logo}
                                 alt='hand logo'
                             />
                         </div>
-                        <span class="font-bold ml-1 mb-1 text-2xl py-2">Bangla Launchpad</span>
+                        <span className="font-bold ml-1 mb-1 text-2xl py-2">Bangla Launchpad</span>
                     </div>
                 </a>
                 {/* menu for screens greater than tablets */}
@@ -47,10 +47,10 @@ const Header = () => {
                     </ul>
                     <div className="inline-flex md:hidden">
                         <button className='px-2' onClick={dropdown}>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16"></path>
+                            <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 8h16M4 16h16"></path>
                             </svg>
-                            <span class="sr-only">Open Menu</span>
+                            <span className="sr-only">Open Menu</span>
                         </button>
                         {/* menu for mobile and tablets  */}
                         {

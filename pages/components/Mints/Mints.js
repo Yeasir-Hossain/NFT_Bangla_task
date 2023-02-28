@@ -23,16 +23,5 @@ const Mints = () => {
     );
 };
 
-// Fetching data from the JSON file
-
-export async function getServerSideProps() {
-    // Fetch data from external API
-    const res = await fetch(`/api/staticdata`)
-    const data = await res.json()
-
-    // Pass data to the page via props
-    return { props: { data } }
-}
-
 export default Mints;
 
