@@ -3,7 +3,7 @@ import Stake from './Stake';
 import Heading from '../Shared/Heading';
 
 // stakes data from json file 
-import stakesdata from '../../api/stakes.json'
+import stakesdata from '../api/stakes.json'
 
 const Stakes = () => {
     const stakes = stakesdata.stakes
