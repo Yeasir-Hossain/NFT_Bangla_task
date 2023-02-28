@@ -2,6 +2,7 @@ import React from 'react';
 
 const Utility = ({ util }) => {
     return (
+        // per utility div 
         <div className='p-4 w-full sm:w-1/2 lg:w-1/3'>
             <div className='flex items-center justify-between p-4 rounded-lg bg-black shadow-gray-800 shadow-sm duration-300 hover:-translate-y-2'>
                 <div className='flex flex-col items-center'>

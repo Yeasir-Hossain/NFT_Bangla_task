@@ -5,8 +5,10 @@ import { AiOutlineTwitter, AiOutlineInstagram } from 'react-icons/ai'
 
 const Footer = () => {
     return (
+        // footer section 
         <footer class="text-center text-white bg-black">
             <div class="container text-xl p-2 pt-12 mx-auto">
+                {/* social media icons  */}
                 <div class="flex justify-center mb-2 space-x-9">
                     <a href="https://facebook.com/nftbangla" target="_blank" >
                         <FaFacebookF />
@@ -25,6 +27,7 @@ const Footer = () => {
                     </a>
                 </div>
             </div>
+            {/* copyright passage  */}
             <div class="text-center p-4">
                 © 2022 Copyright:
                 <a href="https://twitter.com/nftbangla" target="_blank">NFT Bangla Launchpad</a>

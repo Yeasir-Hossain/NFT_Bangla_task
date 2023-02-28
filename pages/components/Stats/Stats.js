@@ -24,6 +24,7 @@ const Stats = () => {
                                     {stat?.svg}
                                     {/* counter for the stats
                                 visibility sensor package for detecting the visible area of h2
+                                this will trigger the counting when the numbers are visibile by the user
                                 */}
                                     <VisibilitySensor partialVisibility offset={{ bottom: 50 }}>
                                         {({ isVisible }) => (

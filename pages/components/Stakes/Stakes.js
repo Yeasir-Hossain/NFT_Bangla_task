@@ -1,6 +1,8 @@
 import React from 'react';
 import Stake from './Stake';
 import Heading from '../Shared/Heading';
+
+// stakes data from json file 
 import stakesdata from '../../api/stakes.json'
 
 const Stakes = () => {

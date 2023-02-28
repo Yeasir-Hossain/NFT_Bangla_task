@@ -1,6 +1,8 @@
 import React from 'react';
 import Mint from './Mint';
 import Heading from '../Shared/Heading';
+
+// mints data from json file
 import mintsdata from '../../api/mints.json'
 
 const Mints = () => {

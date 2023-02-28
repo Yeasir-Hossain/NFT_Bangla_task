@@ -2,6 +2,7 @@ import React from 'react';
 
 const Package = ({ pkg }) => {
     return (
+        // per package div 
         <div class="flex flex-col relative p-6 mx-auto max-w-lg text-center text-gray-200 bg-[#22252B] rounded-lg border-2 border-gray-200 shadow xl:p-8 hover:-translate-y-2 duration-300">
             <h3 class="mb-4 text-4xl font-bold">{pkg.title}</h3>
             <p class="font-light text-gray-400 sm:text-lg"><i>{pkg.desc}</i></p>

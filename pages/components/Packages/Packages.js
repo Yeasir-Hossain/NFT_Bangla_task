@@ -1,7 +1,7 @@
 import React from 'react';
 import Package from './Package';
 
-// packages data from data.js 
+// packages data from packagesdata.js 
 import packages from './packagesdata'
 
 const Packages = () => {
@@ -22,6 +22,7 @@ const Packages = () => {
                 <div className='space-y-8 lg:grid 
 			  		lg:grid-cols-3 lg:gap-6
 					xl:gap-10 lg:space-y-0'>
+                        {/* packages iteration  */}
                     {
                         packages?.map((pkg, index) => <Package key={index} pkg={pkg} />)
                     }
