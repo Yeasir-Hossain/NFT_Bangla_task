@@ -9,7 +9,7 @@ import Packages from './components/Packages/Packages'
 import Partners from './components/Partners/Partners'
 import Footer from './components/Footer/Footer'
 
-export default function Home(props) {
+export default function Home() {
   return (
     <>
       <Head>
