@@ -3,7 +3,7 @@ import React from 'react';
 import banner from '../../../public/banner.png'
 const Banner = () => {
     return (
-        //banner 
+        //banner section
         <div id='home' class="text-center py-0 px-12">
             <div className='justify-center'>
                 <Image

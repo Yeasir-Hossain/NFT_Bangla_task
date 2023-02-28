@@ -1,0 +1,28 @@
+{
+    "stakes": [
+        {
+            "id": "1",
+            "title": "Royal Ties",
+            "description": "500 royal knights honor royal $TIES",
+            "image": "/stakes/royalties.png"
+        },
+        {
+            "id": "2",
+            "title": "Royal Ivory Club",
+            "description": "Mighty Royals quit day jobs to save $IVORY",
+            "image": "/stakes/royalivory.webp"
+        },
+        {
+            "id": "3",
+            "title": "Fcked Catz",
+            "description": "Fcked Catz getting fat on big $BUX",
+            "image": "/stakes/fckedcatz.gif"
+        },
+        {
+            "id": "4",
+            "title": "Bengal Tigers",
+            "description": "1971 Bengal Tigers is the first historical NFT collection on any blockchain",
+            "image": "/stakes/bengaltigers.png"
+        }
+    ]
+}

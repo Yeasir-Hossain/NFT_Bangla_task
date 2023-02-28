@@ -2,8 +2,11 @@ import Image from 'next/image';
 import React from 'react';
 
 const Mint = ({ mint }) => {
+    const handlemintclick = (id) => {
+        console.log(id);
+    }
     return (
-        <div key={mint?.id} className='text-center flex flex-2 flex-col my-2 rounded shadow-sm shadow-black bg-black duration-300 hover:-translate-y-2 justify-between'>
+        <div className='text-center flex flex-2 flex-col my-2 rounded shadow-sm shadow-black bg-black duration-300 hover:-translate-y-2 justify-between'>
             {/* whole div clickable to see details  */}
             <button onClick={() => handlemintclick(mint?.id)}>
                 {/* image of mint  */}

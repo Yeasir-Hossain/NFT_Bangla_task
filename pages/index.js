@@ -4,6 +4,10 @@ import Services from './components/Services/Services'
 import Stats from './components/Stats/Stats'
 import Mints from './components/Mints/Mints'
 import Stakes from './components/Stakes/Stakes'
+import Utilities from './components/Utilities/Utilities'
+import Packages from './components/Packages/Packages'
+import Partners from './components/Partners/Partners'
+import Footer from './components/Footer/Footer'
 
 export default function Home() {
   return (
@@ -19,7 +23,11 @@ export default function Home() {
         <Stats></Stats>
         <Mints></Mints>
         <Stakes></Stakes>
+        <Utilities></Utilities>
+        <Packages></Packages>
+        <Partners></Partners>
       </main>
+      <Footer></Footer>
     </>
   )
 }

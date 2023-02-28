@@ -1,0 +1,28 @@
+{
+  "mints": [
+    {
+      "id": "1",
+      "title": "Celebrity Catz",
+      "description": "Celebrity Catz are also getting fcked as part of the Fcked Catz ecosystem",
+      "image": "/mints/catz.gif"
+    },
+    {
+      "id": "2",
+      "title": "Bengal Tigers",
+      "description": "1971 Bengal Tigers is the first historical NFT collection on any blockchain",
+      "image": "/mints/nftbangla.png"
+    },
+    {
+      "id": "3",
+      "title": "Cryptonian Ghosts",
+      "description": "444 unique ghosts are joining the cryptonians world",
+      "image": "/mints/cryptonian.png"
+    },
+    {
+      "id": "4",
+      "title": "Meta Foxes",
+      "description": "1000 Meta Foxes rise from the ashes of the internet foxes rugpull",
+      "image": "/mints/metafoxes.webp"
+    }
+  ]
+}
